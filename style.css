@@ -53,6 +53,11 @@ body{
     position: relative;
 }
 
+#paint{
+    background-color: white;
+    cursor: crosshair;
+}
+
 /*canvas Container*/
 #container{
     width: 700px;
@@ -95,4 +100,9 @@ body{
 .button:active{
     top: 4px;
 
+}
+
+.eraseMode{
+    background-color: red;
+    color: white;
 }
